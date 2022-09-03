@@ -1,0 +1,50 @@
+        //Q1
+
+        System.out.println("Hello I am enjoying coding");
+        
+        //Q2
+
+        System.out.println("Hello");
+        System.out.println("I");
+        System.out.println("am");
+        System.out.println("enjoying");
+        System.out.println("coding");
+               
+        //Q3
+
+        System.out.println(100+8+3);
+        System.out.println(100*8*3);
+            
+        //Q4
+
+        System.out.println(100-40);
+               
+        //Q5
+
+        System.out.println("*****");
+        System.out.println("*****");                  
+        System.out.println("*****");   
+        System.out.println("*****");
+        System.out.println("*****");                  
+        System.out.println("*****"); 
+        
+        //Q6
+
+        System.out.println("* * ");
+        System.out.println("* * ");  
+        System.out.println("* * ");  
+        System.out.println("* * "); 
+        System.out.println("* * ");   
+        System.out.println("****");  
+
+        //Q7
+
+        System.out.println(987653 % 10);
+
+        //Q8
+
+        int m = 15;
+        int n = 4;
+        System.out.println(m+n);  
+        System.out.println(m-n);    
+        System.out.println(m*n);  
