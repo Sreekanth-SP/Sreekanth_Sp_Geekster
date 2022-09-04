@@ -1,0 +1,133 @@
+Q1
+        Scanner sc = new Scanner(System.in);
+        int diameter = sc.nextInt();
+        System.out.println("Diameter is : "+diameter);
+        int area = (22/7)*((diameter*diameter)/4);
+        System.out.println("Area of circle : "+area );
+    
+Q2
+        Scanner sc = new Scanner(System.in);
+        double x = sc.nextDouble();
+        double y = sc.nextDouble();
+        System.out.println("Base   : "+x);
+        System.out.println("Height : "+y);
+        double area = (x*y)/2;
+        System.out.println("Area of triangle : "+area);
+        
+Q3
+        Scanner sc = new Scanner(System.in);
+        int x = sc.nextInt();
+        System.out.println("Enter the number : "+x);
+        boolean ans;
+        ans = x>1000;
+        System.out.println(ans);
+        
+Q4  Quiz Completed        
+Q5
+    a
+        int x = 7+3+4;
+        System.out.print(x);
+    b       
+        int x = 12+5+8;
+        System.out.print(x);
+    c
+        int x = 13/5 + 18/8;
+        System.out.print(x);
+    d
+        double x= 12 + 5.0 + 2.76;
+        System.out.print(x);
+    e
+        double x= 12/3 + 13/2;
+        System.out.print(x);        
+    f
+        double x=12/3 + 13.0/2;
+        System.out.print(x);
+    g
+        double x=14/2 + 15.0/4;
+        System.out.print(x);
+    h  
+        double x= 13/2 % 5/3;
+        System.out.print(x);  
+    i
+        double x= 17.0/2 % 16.0/4;
+        System.out.print(x);
+Q6
+	a.
+   		boolean ans = 3 > 2;
+	b. 
+   		boolean ans = 3>=3;
+	c. 
+  		boolean ans = 4 + 3 > 9;
+	d.
+  		boolean ans = 10 + 8 > 10;
+	e.
+  		boolean ans = 12 != 10;
+	f.
+  		boolean ans = 13 == 13;
+	g.
+   		boolean ans = 14 != 14;
+	h. 
+   		boolean ans = 20 == 5*4;
+	i.
+   		boolean ans = 30 != 3+4-10;
+	j. 
+  		boolean ans = 20 == 41/2;
+
+            System.out.println(ans);
+Q7
+
+        Scanner sc = new Scanner(System.in);
+
+        double mark1 = sc.nextDouble();
+        double mark2 = sc.nextDouble();
+        double mark3 = sc.nextDouble();
+        double mark4 = sc.nextDouble();
+        double mark5 = sc.nextDouble();
+
+        System.out.println("Mark 1 : " + mark1);
+        System.out.println("Mark 2 : " + mark2);
+        System.out.println("Mark 3 : " + mark3);
+        System.out.println("Mark 4 : " + mark4);
+        System.out.println("Mark 5 : " + mark5);
+
+        double sum = mark1+mark2+mark3+mark4+mark5;
+        double percentage = (sum*100)/500;
+
+        System.out.println("Total sum of marks    : " + sum);
+        System.out.println("Percentage of student : " + percentage + "%");
+
+ Q8
+        Scanner sc = new Scanner(System.in);
+
+        int num1 = sc.nextInt();
+        int num2 = sc.nextInt();
+        int num3 = sc.nextInt();
+        int num4 = sc.nextInt();
+        
+        boolean ans;
+        ans = (num1*num2)>1000 || (num3*num4)>1000 || (num1*num3)>1000 ||
+              (num2*num4)>1000 || (num1*num4)>1000 || (num2*num3)>1000;
+
+        System.out.println(ans);
+
+ Q9
+        Scanner sc = new Scanner(System.in);
+
+        int num = sc.nextInt();
+        System.out.println("The number is : "+ num);
+        
+        boolean ans;
+        ans = (num % 7) == 0;
+        System.out.println("This number is divisible by 7 : "+ ans);
+
+Q10    Quiz Completed
+
+
+                 
+    
+
+
+
+
+
+
